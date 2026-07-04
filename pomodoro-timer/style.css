@@ -12,11 +12,31 @@
     justify-content: center;
     flex-direction: column  ;
     border: 1px solid black;
-    height: 50vh;
+    height: 40vh;
     width: 35vw;
     margin:   20vh auto 0 auto;
 }
 
 .main h1{
-    font-size: 5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.min{
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.btns{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn{
+    border: 1px solid gray;
+    padding: 6px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
 }
